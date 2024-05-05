@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Czytanie tytułu strony + alarm",
+  "version": "2.0",
+  "description": "Czytanie tytułu strony + co 2 sekundy( alarm  + notification)",
+  "permissions": ["activeTab", "scripting", "notifications"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
